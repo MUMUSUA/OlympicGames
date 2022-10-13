@@ -1,6 +1,6 @@
 # -*- codeing = utf-8 -*-
 # @Time: 2022/4/14 21:13
-# @Author:0304190209 李梦婷
+# @Author:0304190209 LMT
 # @File : china.py
 # @Software: PyCharm
 from bs4 import BeautifulSoup  # 网页解析，获取数据

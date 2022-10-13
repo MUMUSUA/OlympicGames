@@ -1,6 +1,6 @@
 # -*- codeing = utf-8 -*-
 # @Time: 2022/4/10 13:56
-# @Author:0304190209 李梦婷
+# @Author:0304190209 LMT
 # @File : olympic-medal.py
 # @Software: PyCharm
 

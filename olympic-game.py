@@ -1,6 +1,6 @@
 # -*- codeing = utf-8 -*-
 # @Time: 2022/4/10 15:41
-# @Author:0304190209 李梦婷
+# @Author:0304190209 LMT
 # @File : olympic-game.py
 # @Software: PyCharm
 
