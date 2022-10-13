@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Olympic Games</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="static/assets/img/favicon.png" rel="icon">
+    <link href="static/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900"
+          rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="static/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="static/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="static/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="static/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="static/assets/css/style.css" rel="stylesheet">
+
+
+    <link href="/static/assets/css/styles2.css" rel="stylesheet"/>
+    <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet"
+          crossorigin="anonymous"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js"
+            crossorigin="anonymous"></script>
+
+
+    <!-- =======================================================
+    * Template Name: eBusiness - v4.7.0
+    * Template URL: https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/
+    * Author: BootstrapMade.com
+    * License: https://bootstrapmade.com/license/
+    ======================================================== -->
+</head>
+
+<body>
+
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex justify-content-between">
+
+        <div class="logo">
+            <h1><a href="index.html"><span>O</span>lympic</a></h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html"><img src="static/assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        </div>
+
+        <nav id="navbar" class="navbar">
+            <ul>
+                <li><a class="nav-link scrollto" href="/">Home</a></li>
+                <li><a class="active " href="/tables">Olympic Games</a></li>
+                <li><a class="nav-link scrollto" href="/medal">Medal</a></li>
+                <li><a class="nav-link scrollto" href="/most">Most</a></li>
+                <li><a class="nav-link scrollto" href="/athlete">Athlete</a></li>
+                <li><a class="nav-link scrollto" href="/China">China</a></li>
+                <li><a class="nav-link scrollto" href="/team">Team</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+
+    </div>
+</header><!-- End Header -->
+
+<main id="main">
+
+    <!-- ======= Blog Header ======= -->
+    <div class="header-bg page-area">
+        <div class="container position-relative">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="slider-content text-center">
+                        <div class="header-bottom">
+                            <div class="layer2">
+                                <h1 class="title2">Olympic Games</h1>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- End Blog Header -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <div id="portfolio" class="portfolio-area area-padding fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="section-headline services-head text-center">
+                        <h2>Previous Olympic Games</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row wesome-project-1 fix">
+                &nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;Tips:在1896年-1992年期间，冬季奥运会与夏季奥运会都是在同一年举行的。在这之后，冬季与夏季的奥运会才被错开举办，冬季奥运会从1994年开始4年举办一次，夏季奥运会从1996开始4年举办一次。故只有1992年冬奥会与1994年冬奥会相隔2年。
+                <!-- Start Portfolio -page -->
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <ul id="portfolio-flters">
+                        <li data-filter=".filter-all" class="filter-active">All</li>
+                        <li data-filter=".filter-summer">Summer</li>
+                        <li data-filter=".filter-winter">Winter</li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row awesome-project-content portfolio-container">
+
+
+                <!-- portfolio-item start -->
+                <div class=" col-xs-12 portfolio-item filter-all">
+                    <div id="layoutSidenav_content">
+                        <main>
+                            <div class="container-fluid">
+                                <div class="card mb-4">
+                                    <div class="card-header"><i class="fas fa-table mr-1"></i>历届奥运会</div>
+                                    <div class="card-body">
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered" id="dataTable" width="100%"
+                                                   cellspacing="0">
+                                                <thead>
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <th>Country</th>
+                                                    <th>Data</th>
+                                                    <th>Athletes</th>
+                                                    <th>Team</th>
+                                                    <th>Sports</th>
+                                                </tr>
+                                                </thead>
+                                                <tfoot>
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <th>Country</th>
+                                                    <th>Data</th>
+                                                    <th>Athletes</th>
+                                                    <th>Team</th>
+                                                    <th>Sports</th>
+                                                </tr>
+                                                </tfoot>
+                                                <tbody>
+                                                {% for item in datalist %}
+                                                    <tr>
+                                                        <td><a href="{{ item[9] }}" target="_blank"> {{ item[0] }}</a></td>
+                                                        <td>{{ item[1] }}</td>
+                                                        <td>{{ item[2] }}</td>
+                                                        <td>{{ item[3] }}</td>
+                                                        <td>{{ item[4] }}</td>
+                                                        <td>{{ item[5] }}</td>
+                                                    </tr>
+                                                {% endfor %}
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </main>
+
+                    </div>
+                </div>
+                <!-- portfolio-item end -->
+
+                <!-- portfolio-item start -->
+                <div class=" col-xs-12 portfolio-item filter-summer">
+                    <div id="layoutSidenav_content">
+                        <main>
+                            <div class="container-fluid">
+                                <div class="card mb-4">
+                                    <div class="card-header"><i class="fas fa-table mr-1"></i>历届夏季奥运会</div>
+                                    <div class="card-body">
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered" id="dataTable" width="100%"
+                                                   cellspacing="0">
+                                                <thead>
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <th>Country</th>
+                                                    <th>Data</th>
+                                                    <th>Athletes</th>
+                                                    <th>Team</th>
+                                                    <th>Sports</th>
+                                                </tr>
+                                                </thead>
+                                                <tfoot>
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <th>Country</th>
+                                                    <th>Data</th>
+                                                    <th>Athletes</th>
+                                                    <th>Team</th>
+                                                    <th>Sports</th>
+                                                </tr>
+                                                </tfoot>
+                                                <tbody>
+                                                {% for item in datalist1 %}
+                                                    <tr>
+                                                        <td>{{ item[0] }}</td>
+                                                        <td>{{ item[1] }}</td>
+                                                        <td>{{ item[2] }}</td>
+                                                        <td>{{ item[3] }}</td>
+                                                        <td>{{ item[4] }}</td>
+                                                        <td>{{ item[5] }}</td>
+                                                    </tr>
+                                                {% endfor %}
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </main>
+
+                    </div>
+                </div>
+                <!-- portfolio-item end -->
+
+                <!-- portfolio-item start -->
+                <div class=" col-xs-12 portfolio-item filter-winter">
+                    <div id="layoutSidenav_content">
+                        <main>
+                            <div class="container-fluid">
+                                <div class="card mb-4">
+                                    <div class="card-header"><i class="fas fa-table mr-1"></i>历届冬季奥运会</div>
+                                    <div class="card-body">
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered" id="dataTable" width="100%"
+                                                   cellspacing="0">
+                                                <thead>
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <th>Country</th>
+                                                    <th>Data</th>
+                                                    <th>Athletes</th>
+                                                    <th>Team</th>
+                                                    <th>Sports</th>
+                                                </tr>
+                                                </thead>
+                                                <tfoot>
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <th>Country</th>
+                                                    <th>Data</th>
+                                                    <th>Athletes</th>
+                                                    <th>Team</th>
+                                                    <th>Sports</th>
+                                                </tr>
+                                                </tfoot>
+                                                <tbody>
+                                                {% for item in datalist2 %}
+                                                    <tr>
+                                                        <td>{{ item[0] }}</td>
+                                                        <td>{{ item[1] }}</td>
+                                                        <td>{{ item[2] }}</td>
+                                                        <td>{{ item[3] }}</td>
+                                                        <td>{{ item[4] }}</td>
+                                                        <td>{{ item[5] }}</td>
+                                                    </tr>
+                                                {% endfor %}
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </main>
+
+                    </div>
+                </div>
+                <!-- portfolio-item end -->
+
+
+            </div>
+        </div>
+    </div>
+    <!-- End Portfolio Section -->
+
+
+
+</main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer>
+    <div class="footer-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="footer-content">
+              <div class="footer-head">
+                <div class="footer-logo">
+                  <h2><span>O</span>lympic</h2>
+                </div>
+                <div class="footer-icons">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="bi bi-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="bi bi-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="bi bi-instagram"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end single footer -->
+          <div class="col-md-4">
+            <div class="footer-content">
+              <div class="footer-head">
+                <h4>information</h4>
+                <p>
+                  Hope you can know more about Olympic.
+                </p>
+                <div class="footer-contacts">
+                  <p><span>Tel:</span> +123 456 789</p>
+                  <p><span>Email:</span> contact@example.com</p>
+                  <p><span>Working Hours:</span> 9am-5pm</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end single footer -->
+          <div class="col-md-4">
+            <div class="footer-content">
+              <div class="footer-head">
+                <h4>Other Website</h4>
+
+                  <a href="https://olympics.com/en/">国际奥委会官网</a>
+                    <br><br>
+                  <a href="https://www.paralympic.org/">国际残奥委会</a>
+                  <br><br><a href="https://www.specialolympics.org/">国际特殊奥运会</a>
+                  <br><br><a href="http://www.olympic.cn/olympic/family/ioc/">中国奥委会官方网站</a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-area-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="copyright text-center">
+              <p>
+                &copy; Copyright <strong>Olympic</strong>. All Rights Reserved
+              </p>
+            </div>
+            <div class="credits">
+              <!--
+              All the links in the footer should remain intact.
+              You can delete the links only if you purchased the pro version.
+              Licensing information: https://bootstrapmade.com/license/
+              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=eBusiness
+            -->
+              Designed by LMT&LFF
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+<div id="preloader"></div>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+
+<!-- Vendor JS Files -->
+<script src="static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="static/assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="static/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="static/assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="static/assets/vendor/php-email-form/validate.js"></script>
+
+<!-- Template Main JS File -->
+<script src="static/assets/js/main.js"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+<script src="/static/assets/js/scripts.js"></script>
+<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
+<script src="/static/assets/js/datatables-demo.js"></script>
+</body>
+
+</html>
